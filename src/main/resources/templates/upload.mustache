@@ -1,0 +1,9 @@
+{{>layout/header}}
+<form name="form" method="post" action="http://localhost:8080/board" enctype="multipart/form-data">
+    <input name="user" value="제목"/>
+    <input name="content" value="내용"/>
+    <input type="file" name="files" multiple="multiple"/>
+    <input type="submit" id="submit" value="전송"/>
+</form>
+
+{{>layout/footer}}
